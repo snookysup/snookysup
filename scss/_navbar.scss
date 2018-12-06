@@ -20,6 +20,11 @@
     &:hover {
       color: darken($primary, 10%);
     }
+    img {
+      vertical-align: middle;
+      border-style: none;
+      height: 80px;
+    }
   }
   .navbar-nav {
     .nav-item {
@@ -46,12 +51,17 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #00000014;
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
+      img {
+        vertical-align: middle;
+        border-style: none;
+        height: 50px;
+      }
     }
     .navbar-nav {
       .nav-item {

@@ -126,6 +126,12 @@ img::-moz-selection {
   color: #31a593;
 }
 
+#mainNav .navbar-brand img {
+  vertical-align: middle;
+  border-style: none;
+  height: 80px;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
@@ -147,13 +153,18 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #00000014;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+  }
+  #mainNav .navbar-brand img {
+    vertical-align: middle;
+    border-style: none;
+    height: 50px;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
